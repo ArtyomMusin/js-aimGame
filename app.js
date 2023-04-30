@@ -55,7 +55,7 @@ function setTime (value) {
 function finishGame () {
     board.innerHTML = `
         <h1>Счет: <span class="primary">${score}</span></h1>
-        <h2><a class="restart">Попробовать ещё раз<a></h2>
+        <h2><a class="restart">Try again<a></h2>
     `
     const restartBtn = document.querySelector('.restart')
     restartBtn.addEventListener('click', restartGame)
